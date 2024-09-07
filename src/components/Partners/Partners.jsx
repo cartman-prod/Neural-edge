@@ -9,7 +9,8 @@ import Brand5 from '../../assets/brands/5.svg'
 const Partners = () => {
   return (
     <>
-    <div className='container my-12' >
+    <div className='dark:bg-gray-900 dark:text-white'>
+      <div className='container py-12' >
         <h1 className='text-center'>Powering next-gen company</h1>
         <div className='flex flex-wrap items-center 
         justify-evenly gap-3 py-6 md:px-32'>
@@ -19,6 +20,7 @@ const Partners = () => {
             <img src={Brand4} alt='GitHub'/>
             <img src={Brand5} alt='Intuit'/>
         </div>
+      </div>
     </div>
     </>
   )
