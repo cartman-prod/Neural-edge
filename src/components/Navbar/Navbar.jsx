@@ -58,7 +58,7 @@ const Navbar = () => {
                                 return (
                                     <li key={id} className='cursor-pointer py-4'>
                                     <a href={url} className='text-lg font-medium py-2 hover:text-primary
-                                    hover:border-b-2 hover:border-primary transition-all duration-300'>
+                                    hover:border-b-2 hover:border-primary transition-all duration-100'>
                                         {name}
                                     </a>
                                 </li>

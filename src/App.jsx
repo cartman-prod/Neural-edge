@@ -4,8 +4,8 @@ import Hero from './components/Hero/Hero';
 import Partners from './components/Partners/Partners';
 import Services from './components/Services/Services';
 import Carousel from './components/Carousel/Carousel';
-
-
+import Blog from './components/BlogComp/Blog';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -16,6 +16,8 @@ const App = () => {
       <Partners />
       <Services />
       <Carousel />
+      <Blog />
+      <Footer />
     </div>
   )
 }
