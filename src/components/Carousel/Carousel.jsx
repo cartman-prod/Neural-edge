@@ -44,7 +44,7 @@ const Carousel = () => {
   return (
     <>
     <div className='py-10 dark:text-white'>
-        <div className='container'>
+        <div data-aos='fade-up' className='container'>
             <div className='grid grid-cols-1 max-w-screen-xl mx-auto'>
             <Slider {...settings}>
                 {testimonialData.map(({id, name, text, img}) => (

@@ -46,15 +46,15 @@ const Services = () => {
     <div className='container'>
     {/* header section */}
     <div className='pb-12 text-center space-y-3'>
-        <h1 className='text-3xl font-semibold
+        <h1 data-aos='fade-up' className='text-3xl font-semibold
         text-violet-950 dark:text-primary'>Explore Our Services</h1>
-        <p>We are self-service data analytics software
+        <p data-aos='fade-up' data-aos-delay='300'>We are self-service data analytics software
             that lets you create visually</p>
     </div>
     {/* card section */}
     <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4'>
-        {skillsData.map(({icon, name, description}) => (
-            <div key={name} className='card flex flex-col items-center space-y-4 
+        {skillsData.map(({ icon, name, description}) => (
+            <div data-aos='fade-up' data-aos-delay={skillsData.aosDelay} key={name} className='card flex flex-col items-center space-y-4 
             sm:space-y-4 p-4'>
                 <div className='flex items-center justify-center'>
                     {icon}
@@ -71,7 +71,7 @@ const Services = () => {
         ))}
     </div>
     {/* button section */}
-    <div className='text-center mt-4 sm:mt-8'>
+    <div data-aos='fade-up' data-aos-delay='300' data-aos-offset='0' className='text-center mt-4 sm:mt-8'>
         <button className='btn-primary'>Learn More</button>
     </div>
     </div>

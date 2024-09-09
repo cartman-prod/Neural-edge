@@ -4,10 +4,10 @@ import { FaArrowRight } from 'react-icons/fa';
 
 
 
-const BlogCard = ({ image, title, description }) => {
+const BlogCard = ({ image, title, description, aosDelay }) => {
   return (
   <>
-    <div className='dark:text-white group'>
+    <div data-aos='fade-up' data-aos-delay={aosDelay} className='dark:text-white group'>
         <div className='overflow-hidden'>
             <img src={image} alt=''
             className='mx-auto h-[420px] w-full object-cover

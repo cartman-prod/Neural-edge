@@ -10,9 +10,9 @@ const Hero = () => {
       mt-10 sm:mt-0">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 
         place-items-center">
-          <div className='order-1 sm:order-2 relative'>
+          <div data-aos='zoom-in' className='order-1 sm:order-2 relative'>
             <img className='rounded-3xl md:width-350' src={HeroImg} alt='Digital_WORK' />
-          <div className='bg-white dark:bg-gray-900 
+          <div data-aos='slide-right' data-aos-delay='300' className='bg-white dark:bg-gray-900 
           px-4 py-2 rounded-xl shadow-md absolute 
           -bottom-5 -right-8'>
             <p>⭐ Projects</p>
@@ -21,14 +21,15 @@ const Hero = () => {
           </div>
           {/* Image Hero */}
           <div className='space-y-5 order-2 sm:order-1 xl:pr-40'>
-            <h1 className='text-4xl sm:text-5xl font-semibold'>Building Brands in the 
+            <h1 data-aos='fade-up' className='text-4xl sm:text-5xl font-semibold'>Building Brands in the 
               <span className='text-primary'>Digital Agency</span></h1>
-            <p>fefefefefefefefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+            <p data-aos='fade-up' data-aos-delay='300'>fefefefefefefefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
               eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
               eeeeeeee34rrrrrrrrrrrrrrrrrrrr
               rew333333333333333333333333333333333333333333
             </p>
-            <button className='btn-primary'>Get Started</button>
+            <button data-aos='fade-up' data-aos-delay='500' 
+            className='btn-primary duration-300 transition-all'>Get Started</button>
           </div>
         </div>
       </div>
